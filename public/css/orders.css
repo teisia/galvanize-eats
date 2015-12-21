@@ -31,6 +31,11 @@ option {
   background-color: white;
 }
 
+select option:disabled {
+  color: black;
+  font-weight: bold;
+}
+
 .selectedItems {
   margin: 20px;
   width: 30%;
