@@ -18,12 +18,23 @@ main {
   height: 86vh;
 }
 
+.left {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
 select {
   height: 35%;
-  width: 35%;
+  width: 80%;
   background-color: white;
   color: black;
-  float: left;
   margin: 20px 0 0 20px;
 }
 
@@ -36,9 +47,51 @@ select option:disabled {
   font-weight: bold;
 }
 
+label {
+  font-size: 12px;
+}
+
+#quantity {
+  background-color: white;
+  height: 30px;
+  width: 15%;
+}
+
+.quantAdd {
+  margin: 10px 0 0 20px;
+}
+
+button.add {
+  background-color: #5973A6;
+  color: white;
+  border: none;
+  width: 35%;
+  padding: 10px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.customerInfo {
+  margin: 10px 0 0 20px;
+}
+
+input:not(number) {
+  width: 80%;
+  background-color: white;
+}
+
+button#deliver {
+  background-color: #7EBA92;
+  color: white;
+  width: 81%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+}
+
 .selectedItems {
   margin: 20px;
-  width: 30%;
+  width: 70%;
   height: 85%;
   background-color: white;
   float: left;
