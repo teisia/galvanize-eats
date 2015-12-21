@@ -9,5 +9,6 @@ menu.done(function(response) {
     for (var i = 0; i < items.length; i++) {
       $(".menuItems").append("<option disabled>"+items[i]['type']+"</option>");
       $(".menuItems").append("<option value>"+items[i]['name']+" "+items[i]['price']+"</option>");
+      $('select option:nth-child(2)').attr("selected", "selected");
 }
 })
