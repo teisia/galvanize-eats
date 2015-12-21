@@ -20,5 +20,5 @@ menu.done(function(response) {
 })
 
 $("#addMe").click(function() {
-  $(".selectedItems").append("");
+  $(".menuItems :selected").clone().appendTo(".selectedItems");
   })
