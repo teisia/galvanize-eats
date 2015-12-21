@@ -1,0 +1,58 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: #E3A634;
+}
+
+header {
+  padding-top: 15px;
+  padding-left: 5px;
+  height: 5vh;
+  background-color: black;
+  font-size: 20px;
+  opacity: .6;
+  color: white;
+}
+
+main {
+  height: 86vh;
+}
+
+select {
+  height: 35%;
+  width: 35%;
+  background-color: white;
+  color: black;
+  float: left;
+  margin: 20px 0 0 20px;
+}
+
+option {
+  background-color: white;
+}
+
+.selectedItems {
+  margin: 20px;
+  width: 30%;
+  height: 85%;
+  background-color: white;
+  float: left;
+}
+
+.footerCopy {
+  text-align: center;
+  background-color: black;
+}
+
+icon {
+  background-color: black;
+}
+
+footer {
+  height: 5vh;
+  position: sticky;
+  padding-top: 15px;
+  padding-bottom: 1px;
+  background-color: black;
+  color: white;
+}
