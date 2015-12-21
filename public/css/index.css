@@ -3,7 +3,7 @@
 }
 
 header {
-  height: 10vh;
+  height: 5vh;
 }
 
 main {
@@ -12,9 +12,19 @@ main {
 }
 
 .hero {
-  height: 70%;
+  height: 60%;
+}
+
+.infoBox    {
+  padding: 15px;
+  width: 30%;
+  text-align: justify;
+  float: left;
+
 }
 
 footer {
-  height: 10vh;
+  clear: both;
+  height: 5vh;
+  position: sticky;
 }
