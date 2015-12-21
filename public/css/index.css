@@ -7,12 +7,30 @@ header {
 }
 
 main {
+  padding-top: 90px;
   text-align: center;
-  height: 80vh;
+  height: 60vh;
 }
 
 .hero {
   height: 60%;
+}
+
+button {
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  width: 50%;
+  height: 15%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.moreInfo {
+  margin-top: -30px;
 }
 
 .infoBox    {
@@ -20,11 +38,15 @@ main {
   width: 30%;
   text-align: justify;
   float: left;
+}
 
+.footerCopy {
+  text-align: center;
 }
 
 footer {
   clear: both;
   height: 5vh;
   position: sticky;
+  margin-top: 100px;
 }
