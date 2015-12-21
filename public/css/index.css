@@ -1,0 +1,20 @@
+* {
+  font-family: Arial;
+}
+
+header {
+  height: 10vh;
+}
+
+main {
+  text-align: center;
+  height: 80vh;
+}
+
+.hero {
+  height: 70%;
+}
+
+footer {
+  height: 10vh;
+}

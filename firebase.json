@@ -1,0 +1,9 @@
+{
+  "firebase": "galvanize-eats-tpark",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
