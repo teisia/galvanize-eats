@@ -92,7 +92,7 @@ button#deliver {
 .selectedItems {
   margin: 20px;
   padding: 10px;
-  width: 60%;
+  width: 35%;
   height: 70%;
   background-color: white;
   float: left;
@@ -101,12 +101,17 @@ button#deliver {
 
 .totals {
   padding: 10px;
-  width: 100%;
+  width: 35%;
   height: 100px;
   position: absolute;
   bottom: 0;
   margin: 0 auto;
   background-color: white;
+}
+
+.totals div {
+  background-color: white;
+  width: 100%;
 }
 
 .footerCopy {
