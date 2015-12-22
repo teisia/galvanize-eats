@@ -17,17 +17,19 @@ menu.done(function(response) {
 var arr = [];
 
 $("#addMe").click(function() {
+  var quantity = document.getElementById('quantity').value;
   var subtotal = 0;
   $(".menuItems :selected").clone().appendTo(".selectedItems");
+  $(".selectedItems").append("<div>"+quantity+"</div>");
   $(".menuItems :selected").each(function() {
     var selected = $(this).val();
     arr.push(selected);
   });
   for (var i = 0; i < arr.length; i++) {
-    subtotal += parseFloat(arr[i]);
+    subtotal += (parseFloat(arr[i]) * quantity);
     var tax = parseFloat((.083 * subtotal).toFixed(2));
     var gTotal = (tax + subtotal).toFixed(2);
-  }
+}
   $(".totals").html("<div>Subtotal" + subtotal + "<br>" + "Tax" +tax+ "<br>" + "Grand Total" +gTotal+ "</div>");
 })
 

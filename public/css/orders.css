@@ -20,13 +20,11 @@ main {
 
 .left {
   width: 50%;
-  height: 100%;
   float: left;
 }
 
 .right {
   width: 50%;
-  height: 100%;
   float: left;
 }
 
@@ -97,6 +95,11 @@ button#deliver {
   background-color: white;
   float: left;
   position: fixed;
+}
+
+.selectedItems div {
+  background-color: white;
+  width: 10%;
 }
 
 .totals {
