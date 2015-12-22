@@ -91,10 +91,22 @@ button#deliver {
 
 .selectedItems {
   margin: 20px;
-  width: 70%;
-  height: 85%;
+  padding: 10px;
+  width: 60%;
+  height: 70%;
   background-color: white;
   float: left;
+  position: fixed;
+}
+
+.totals {
+  padding: 10px;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  background-color: white;
 }
 
 .footerCopy {
