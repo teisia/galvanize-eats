@@ -1,21 +1,20 @@
 * {
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  background-color: #E3A634;
 }
 
 header {
   padding-top: 15px;
   padding-left: 5px;
   height: 5vh;
-  background-color: black;
+  background-color: #6A4A15;
   font-size: 20px;
-  opacity: .6;
   color: white;
 }
 
 main {
   height: 86vh;
+  background: linear-gradient(to right, #E3A634, #9E5A0E);
 }
 
 .left {
@@ -34,6 +33,7 @@ select {
   background-color: white;
   color: black;
   margin: 20px 0 0 20px;
+  overflow: scroll;
 }
 
 option {
@@ -69,6 +69,10 @@ button.add {
   margin-left: 20px;
 }
 
+button:hover {
+  opacity: .6;
+}
+
 .customerInfo {
   margin: 10px 0 0 20px;
 }
@@ -99,7 +103,7 @@ button#deliver {
 
 .selectedItems div {
   background-color: white;
-  width: 10%;
+  width: 70%;
 }
 
 .totals {
@@ -112,7 +116,7 @@ button#deliver {
   background-color: white;
 }
 
-.totals div {
+.totals div, strong {
   background-color: white;
   width: 100%;
 }

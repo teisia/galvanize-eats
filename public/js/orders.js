@@ -30,9 +30,27 @@ $("#addMe").click(function() {
     var tax = parseFloat((.083 * subtotal).toFixed(2));
     var gTotal = (tax + subtotal).toFixed(2);
 }
-  $(".totals").html("<div>Subtotal" + subtotal + "<br>" + "Tax" +tax+ "<br>" + "Grand Total" +gTotal+ "</div>");
+  $(".totals").html("<div>Subtotal" + "  " + subtotal + "<br>" + "Tax" + "  " + tax + "<br>" + "<strong>Grand Total" + "  " + gTotal + "</strong></div>");
 })
 
-$("#deliver").click(function() {
 
+$("#deliver").click(function() {
+ var name = document.getElementById("name").value;
+ var phone = document.getElementById("phone").value;
+ var address = document.getElementById("address").value;
+ var dataString = "name=" + name + "&phone=" + phone + "&address=" + address;
+ if (name == "" || phone == "" || address == "") {
+   alert("Please fill out all fields");
+ } else {
+ $.ajax({
+   type: "POST",
+   url: "https://galvanize-eats-api.herokuapp.com/orders",
+   data: dataString,
+   cache: false,
+   success: function(data) {
+     console.log(data);
+}
+});
+}
+return false;
 })
