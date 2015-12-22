@@ -20,11 +20,13 @@ main {
 .left {
   width: 50%;
   float: left;
+  margin-left: 5%;
 }
 
 .right {
-  width: 50%;
+  width: 30%;
   float: left;
+  margin-right: 7%;
 }
 
 select {
